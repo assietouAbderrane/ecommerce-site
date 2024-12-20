@@ -1,0 +1,20 @@
+# Ignore wp-config.php (contains sensitive data)
+wp-config.php
+
+# Ignore WordPress Core Files (optional if the project only depends on custom themes/plugins)
+wp-admin/
+wp-includes/
+
+# Ignore Uploads (optional, if you don't want to push media files)
+wp-content/uploads/
+
+# Ignore Cache and Temporary Files
+wp-content/cache/
+*.log
+*.tmp
+*.bak
+
+# Ignore OS/IDE-specific Files
+.DS_Store
+Thumbs.db
+.vscode/
