@@ -1,0 +1,23 @@
+.merchant-theme-flatsome {
+  /* Sticky Add To Cart */
+  /* Stock Scarcity */
+}
+.merchant-theme-flatsome .merchant-sticky-add-to-cart-wrapper .merchant-sticky-add-to-cart-wrapper-content .merchant-sticky-add-to-cart-item.product-addtocart form.cart {
+  margin-bottom: 0;
+}
+.merchant-theme-flatsome .merchant-sticky-add-to-cart-wrapper .merchant-sticky-add-to-cart-wrapper-content .merchant-sticky-add-to-cart-item.product-addtocart form.cart .ux-quantity__button.ux-quantity__button--minus,
+.merchant-theme-flatsome .merchant-sticky-add-to-cart-wrapper .merchant-sticky-add-to-cart-wrapper-content .merchant-sticky-add-to-cart-item.product-addtocart form.cart .ux-quantity__button.ux-quantity__button--plus {
+  margin: 0;
+}
+.merchant-theme-flatsome .merchant-sticky-add-to-cart-wrapper .merchant-sticky-add-to-cart-wrapper-content .merchant-sticky-add-to-cart-item.product-addtocart form.cart .input-text.qty {
+  height: auto;
+}
+.merchant-theme-flatsome .merchant-sticky-add-to-cart-wrapper .merchant-sticky-add-to-cart-wrapper-content .merchant-sticky-add-to-cart-item.product-addtocart form.cart .single_add_to_cart_button {
+  margin-bottom: 0;
+}
+.merchant-theme-flatsome .merchant-sticky-add-to-cart-wrapper-content-mobile .button.merchant-mobile-sticky-addtocart-button {
+  margin-bottom: 0;
+}
+.merchant-theme-flatsome .merchant-stock-scarcity {
+  margin-top: 0;
+}

@@ -1,0 +1,192 @@
+/**
+ * Admin Preview
+ * Side Cart
+ *
+ */
+.merchant-module-page-setting-box > .merchant-module-page-setting-fields {
+  gap: 24px;
+}
+.merchant-module-page-setting-box > .merchant-module-page-setting-fields > .merchant-module-page-setting-field {
+  margin: 0;
+}
+.merchant-module-page-setting-box > .merchant-module-page-setting-fields > .merchant-module-page-setting-field[data-id=shortcode_text] {
+  margin-top: 0;
+}
+
+.merchant-module-page-preview-browser-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 100%;
+  margin: auto;
+  padding: 30px 25px 25px;
+  height: 472px;
+}
+
+.mrc-preview-single-product-elements {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+.mrc-preview-single-product-elements .mrc-preview-left-column {
+  width: 30%;
+  min-width: 30%;
+}
+.mrc-preview-single-product-elements .mrc-preview-right-column {
+  width: 70%;
+  padding-top: 25px;
+}
+.mrc-preview-single-product-elements .mrc-preview-product-image-wrapper .mrc-preview-product-image {
+  background-color: #f5f5f5;
+  height: 12vw;
+}
+.mrc-preview-single-product-elements .mrc-preview-product-image-wrapper .mrc-preview-product-image-thumbs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.mrc-preview-single-product-elements .mrc-preview-product-image-wrapper .mrc-preview-product-image-thumbs .mrc-preview-product-image-thumb {
+  width: 100%;
+  height: 3vw;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+}
+
+.mrc-mw-70 {
+  max-width: 70%;
+}
+
+.mrc-mw-30 {
+  max-width: 30%;
+}
+
+.mrc-mw-40 {
+  max-width: 40%;
+}
+
+@media (max-width: 1281px) {
+  .mrc-hide-on-smaller-screens {
+    display: none;
+  }
+}
+.mrc-preview-text-placeholder {
+  background-color: #f5f5f5;
+  height: 13px;
+}
+.mrc-preview-text-placeholder + .mrc-preview-text-placeholder, .mrc-preview-text-placeholder + .mrc-preview-addtocart-placeholder {
+  margin-top: 15px;
+}
+
+.mrc-preview-addtocart-placeholder {
+  background-color: #e5e5e5;
+  width: 140px;
+  height: 30px;
+}
+
+@media (max-width: 991px) {
+  .mrc-preview-single-product-elements .mrc-preview-product-image-wrapper .mrc-preview-product-image {
+    height: 33vw;
+  }
+  .mrc-preview-single-product-elements .mrc-preview-product-image-wrapper .mrc-preview-product-image-thumbs .mrc-preview-product-image-thumb {
+    height: 7vw;
+  }
+}
+body.merchant-side-cart-show {
+  overflow: auto !important;
+}
+
+.merchant-side-cart-checkout-btn,
+.merchant-side-cart-view-cart-btn {
+  display: none !important;
+}
+.merchant-side-cart-checkout-btn.show-btn,
+.merchant-side-cart-view-cart-btn.show-btn {
+  display: block !important;
+}
+
+.merchant-side-cart-floating-cart {
+  position: absolute;
+  pointer-events: all;
+  -webkit-transform: none;
+          transform: none;
+  z-index: 9999999;
+}
+.merchant-side-cart-floating-cart.merchant-show {
+  opacity: 1;
+  visibility: visible;
+}
+.merchant-side-cart-floating-cart-position-left, .merchant-side-cart-floating-cart.left {
+  left: var(--mrc-fmci-corner-offset, 30px);
+  right: auto !important;
+  -webkit-transform: none;
+          transform: none;
+}
+.merchant-side-cart-floating-cart-position-right, .merchant-side-cart-floating-cart.right {
+  left: auto !important;
+  right: var(--mrc-fmci-corner-offset, 30px);
+  -webkit-transform: none;
+          transform: none;
+}
+
+.merchant-side-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: var(--mrc-fmci-side-cart-width, 380px);
+  max-width: 100%;
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.merchant-side-cart.slide-left {
+  left: 0;
+  right: unset;
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+.merchant-side-cart-overlay {
+  position: absolute;
+}
+
+.merchant-side-cart-show .merchant-side-cart {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.mrc-product-image {
+  display: block;
+  width: 62px;
+  height: 70px;
+  background-color: #f5f5f5;
+}
+
+.merchant-side-cart-widget .product_list_widget {
+  height: 200px !important;
+}
+
+.merchant-upsells-badge {
+  background-color: #f0f0f1;
+  color: #757575;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.rtl .merchant-upsells-badge {
+  margin-right: 20px;
+  margin-left: 0;
+}

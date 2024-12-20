@@ -1,0 +1,7 @@
+.merchant-theme-avada {
+  /* Floating Mini Cart & Side Cart */
+}
+.merchant-theme-avada .merchant-side-cart .quantity .minus,
+.merchant-theme-avada .merchant-side-cart .quantity .plus {
+  display: none !important;
+}
